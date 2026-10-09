@@ -10,6 +10,10 @@ let b = inc(a);
 console.dir({a, b});
 
 
+
+
+
+
 function inc2(num) {
     num.n += 1;
 };

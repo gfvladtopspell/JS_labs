@@ -14,6 +14,9 @@ for (const ITEM of ITEMS) {
 console.log('Результат №1: ', FILTERED_ITEMS);
 
 
+
+
+
 const FILTERED_ITEMS2 = {};
 
 for (const ITEM of ITEMS) {
