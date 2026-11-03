@@ -20,5 +20,4 @@ for (const key in iface) {
     }
 }
 
-//console.log(result);
-console.table(result);
+console.log(result);

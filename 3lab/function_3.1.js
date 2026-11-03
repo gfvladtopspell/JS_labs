@@ -1,7 +1,7 @@
 'use strict';
 
 function random(min, max) {
-  if (max == undefined) {
+  if (max === undefined) {
     max = min;
     min = 0;
   }
