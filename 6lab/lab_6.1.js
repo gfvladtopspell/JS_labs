@@ -2,9 +2,7 @@
 
 const pipe = (...args) => {
     for(const key of args) {
-        if (typeof key !== 'function') {
-            throw new Error("Not a function");
-        }
+        if (typeof key !== 'function') throw new Error("Not a function");
     }
     return x => args.reduce((acc, fn) => fn(acc), x);
 }
